@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomViewController.h
 //  ItsOnBlue
 //
 //  Created by Daniela Beraldo on 6/22/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CustomViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *MyPage;
 
 @end
-

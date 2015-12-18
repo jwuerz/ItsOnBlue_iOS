@@ -9,11 +9,33 @@
 /* Begin PBXBuildFile section */
 		33A97FCF1B389A9B00DFA925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A97FCE1B389A9B00DFA925 /* main.m */; };
 		33A97FD21B389A9B00DFA925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A97FD11B389A9B00DFA925 /* AppDelegate.m */; };
-		33A97FD51B389A9B00DFA925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A97FD41B389A9B00DFA925 /* ViewController.m */; };
 		33A97FD81B389A9B00DFA925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FD61B389A9B00DFA925 /* Main.storyboard */; };
 		33A97FDA1B389A9B00DFA925 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FD91B389A9B00DFA925 /* Images.xcassets */; };
 		33A97FDD1B389A9B00DFA925 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FDB1B389A9B00DFA925 /* LaunchScreen.xib */; };
 		33A97FE91B389A9B00DFA925 /* ItsOnBlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A97FE81B389A9B00DFA925 /* ItsOnBlueTests.m */; };
+		33A97FF81B389BB100DFA925 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A97FF71B389BB100DFA925 /* CustomViewController.m */; };
+		33A980041B389D2200DFA925 /* confidentialAssistance.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FF91B389D2200DFA925 /* confidentialAssistance.html */; };
+		33A980051B389D2200DFA925 /* consent.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFA1B389D2200DFA925 /* consent.html */; };
+		33A980061B389D2200DFA925 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFB1B389D2200DFA925 /* index.html */; };
+		33A980071B389D2200DFA925 /* ISUResources.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFC1B389D2200DFA925 /* ISUResources.html */; };
+		33A980081B389D2200DFA925 /* mystyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFD1B389D2200DFA925 /* mystyle.css */; };
+		33A980091B389D2200DFA925 /* reportToISU.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFE1B389D2200DFA925 /* reportToISU.html */; };
+		33A9800A1B389D2200DFA925 /* reportToISUPolice.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A97FFF1B389D2200DFA925 /* reportToISUPolice.html */; };
+		33A9800B1B389D2200DFA925 /* responsibleEmployees.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A980001B389D2200DFA925 /* responsibleEmployees.html */; };
+		33A9800C1B389D2200DFA925 /* safetyTips.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A980011B389D2200DFA925 /* safetyTips.html */; };
+		33A9800D1B389D2200DFA925 /* THResources.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A980021B389D2200DFA925 /* THResources.html */; };
+		33A9800E1B389D2200DFA925 /* whatToDo.html in Resources */ = {isa = PBXBuildFile; fileRef = 33A980031B389D2200DFA925 /* whatToDo.html */; };
+		DED7BD501B60334D00835381 /* IsuLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD451B60334D00835381 /* IsuLogo.png */; };
+		DED7BD511B60334D00835381 /* Button9_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD461B60334D00835381 /* Button9_highquality.png */; };
+		DED7BD521B60334D00835381 /* Button8_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD471B60334D00835381 /* Button8_highquality.png */; };
+		DED7BD531B60334D00835381 /* Button7_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD481B60334D00835381 /* Button7_highquality.png */; };
+		DED7BD541B60334D00835381 /* Button6_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD491B60334D00835381 /* Button6_highquality.png */; };
+		DED7BD551B60334D00835381 /* Button5_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4A1B60334D00835381 /* Button5_highquality.png */; };
+		DED7BD561B60334D00835381 /* Button3_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4B1B60334D00835381 /* Button3_highquality.png */; };
+		DED7BD571B60334D00835381 /* Button4_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4C1B60334D00835381 /* Button4_highquality.png */; };
+		DED7BD581B60334D00835381 /* Button2_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4D1B60334D00835381 /* Button2_highquality.png */; };
+		DED7BD591B60334D00835381 /* Button1_highquality.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4E1B60334D00835381 /* Button1_highquality.png */; };
+		DED7BD5A1B60334D00835381 /* AppBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = DED7BD4F1B60334D00835381 /* AppBanner.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +54,36 @@
 		33A97FCE1B389A9B00DFA925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33A97FD01B389A9B00DFA925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33A97FD11B389A9B00DFA925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33A97FD31B389A9B00DFA925 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33A97FD41B389A9B00DFA925 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33A97FD71B389A9B00DFA925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33A97FD91B389A9B00DFA925 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33A97FDC1B389A9B00DFA925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		33A97FE21B389A9B00DFA925 /* ItsOnBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItsOnBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A97FE71B389A9B00DFA925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33A97FE81B389A9B00DFA925 /* ItsOnBlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItsOnBlueTests.m; sourceTree = "<group>"; };
+		33A97FF61B389BB100DFA925 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		33A97FF71B389BB100DFA925 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		33A97FF91B389D2200DFA925 /* confidentialAssistance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = confidentialAssistance.html; path = ../../../Desktop/ItsOnBlueWeb/confidentialAssistance.html; sourceTree = "<group>"; };
+		33A97FFA1B389D2200DFA925 /* consent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = consent.html; path = ../../../Desktop/ItsOnBlueWeb/consent.html; sourceTree = "<group>"; };
+		33A97FFB1B389D2200DFA925 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../../Desktop/ItsOnBlueWeb/index.html; sourceTree = "<group>"; };
+		33A97FFC1B389D2200DFA925 /* ISUResources.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ISUResources.html; path = ../../../Desktop/ItsOnBlueWeb/ISUResources.html; sourceTree = "<group>"; };
+		33A97FFD1B389D2200DFA925 /* mystyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = mystyle.css; path = ../../../Desktop/ItsOnBlueWeb/mystyle.css; sourceTree = "<group>"; };
+		33A97FFE1B389D2200DFA925 /* reportToISU.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = reportToISU.html; path = ../../../Desktop/ItsOnBlueWeb/reportToISU.html; sourceTree = "<group>"; };
+		33A97FFF1B389D2200DFA925 /* reportToISUPolice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = reportToISUPolice.html; path = ../../../Desktop/ItsOnBlueWeb/reportToISUPolice.html; sourceTree = "<group>"; };
+		33A980001B389D2200DFA925 /* responsibleEmployees.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = responsibleEmployees.html; path = ../../../Desktop/ItsOnBlueWeb/responsibleEmployees.html; sourceTree = "<group>"; };
+		33A980011B389D2200DFA925 /* safetyTips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = safetyTips.html; path = ../../../Desktop/ItsOnBlueWeb/safetyTips.html; sourceTree = "<group>"; };
+		33A980021B389D2200DFA925 /* THResources.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = THResources.html; path = ../../../Desktop/ItsOnBlueWeb/THResources.html; sourceTree = "<group>"; };
+		33A980031B389D2200DFA925 /* whatToDo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = whatToDo.html; path = ../../../Desktop/ItsOnBlueWeb/whatToDo.html; sourceTree = "<group>"; };
+		DED7BD451B60334D00835381 /* IsuLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IsuLogo.png; path = ../../../Desktop/ItsOnBlueWeb/IsuLogo.png; sourceTree = "<group>"; };
+		DED7BD461B60334D00835381 /* Button9_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button9_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button9_highquality.png; sourceTree = "<group>"; };
+		DED7BD471B60334D00835381 /* Button8_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button8_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button8_highquality.png; sourceTree = "<group>"; };
+		DED7BD481B60334D00835381 /* Button7_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button7_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button7_highquality.png; sourceTree = "<group>"; };
+		DED7BD491B60334D00835381 /* Button6_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button6_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button6_highquality.png; sourceTree = "<group>"; };
+		DED7BD4A1B60334D00835381 /* Button5_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button5_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button5_highquality.png; sourceTree = "<group>"; };
+		DED7BD4B1B60334D00835381 /* Button3_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button3_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button3_highquality.png; sourceTree = "<group>"; };
+		DED7BD4C1B60334D00835381 /* Button4_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button4_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button4_highquality.png; sourceTree = "<group>"; };
+		DED7BD4D1B60334D00835381 /* Button2_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button2_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button2_highquality.png; sourceTree = "<group>"; };
+		DED7BD4E1B60334D00835381 /* Button1_highquality.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button1_highquality.png; path = ../../../Desktop/ItsOnBlueWeb/Button1_highquality.png; sourceTree = "<group>"; };
+		DED7BD4F1B60334D00835381 /* AppBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppBanner.png; path = ../../../Desktop/ItsOnBlueWeb/AppBanner.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +125,36 @@
 		33A97FCB1B389A9B00DFA925 /* ItsOnBlue */ = {
 			isa = PBXGroup;
 			children = (
+				DED7BD451B60334D00835381 /* IsuLogo.png */,
+				DED7BD461B60334D00835381 /* Button9_highquality.png */,
+				DED7BD471B60334D00835381 /* Button8_highquality.png */,
+				DED7BD481B60334D00835381 /* Button7_highquality.png */,
+				DED7BD491B60334D00835381 /* Button6_highquality.png */,
+				DED7BD4A1B60334D00835381 /* Button5_highquality.png */,
+				DED7BD4B1B60334D00835381 /* Button3_highquality.png */,
+				DED7BD4C1B60334D00835381 /* Button4_highquality.png */,
+				DED7BD4D1B60334D00835381 /* Button2_highquality.png */,
+				DED7BD4E1B60334D00835381 /* Button1_highquality.png */,
+				DED7BD4F1B60334D00835381 /* AppBanner.png */,
+				33A97FF91B389D2200DFA925 /* confidentialAssistance.html */,
+				33A97FFA1B389D2200DFA925 /* consent.html */,
+				33A97FFB1B389D2200DFA925 /* index.html */,
+				33A97FFC1B389D2200DFA925 /* ISUResources.html */,
+				33A97FFD1B389D2200DFA925 /* mystyle.css */,
+				33A97FFE1B389D2200DFA925 /* reportToISU.html */,
+				33A97FFF1B389D2200DFA925 /* reportToISUPolice.html */,
+				33A980001B389D2200DFA925 /* responsibleEmployees.html */,
+				33A980011B389D2200DFA925 /* safetyTips.html */,
+				33A980021B389D2200DFA925 /* THResources.html */,
+				33A980031B389D2200DFA925 /* whatToDo.html */,
 				33A97FD01B389A9B00DFA925 /* AppDelegate.h */,
 				33A97FD11B389A9B00DFA925 /* AppDelegate.m */,
-				33A97FD31B389A9B00DFA925 /* ViewController.h */,
-				33A97FD41B389A9B00DFA925 /* ViewController.m */,
 				33A97FD61B389A9B00DFA925 /* Main.storyboard */,
 				33A97FD91B389A9B00DFA925 /* Images.xcassets */,
 				33A97FDB1B389A9B00DFA925 /* LaunchScreen.xib */,
 				33A97FCC1B389A9B00DFA925 /* Supporting Files */,
+				33A97FF61B389BB100DFA925 /* CustomViewController.h */,
+				33A97FF71B389BB100DFA925 /* CustomViewController.m */,
 			);
 			path = ItsOnBlue;
 			sourceTree = "<group>";
@@ -163,11 +229,12 @@
 		33A97FC11B389A9B00DFA925 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = "Daniela Beraldo";
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Indiana State University - College of Technology";
 				TargetAttributes = {
 					33A97FC81B389A9B00DFA925 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 68SQ2Y83DM;
 					};
 					33A97FE11B389A9B00DFA925 = {
 						CreatedOnToolsVersion = 6.3;
@@ -199,9 +266,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED7BD511B60334D00835381 /* Button9_highquality.png in Resources */,
+				DED7BD5A1B60334D00835381 /* AppBanner.png in Resources */,
+				DED7BD501B60334D00835381 /* IsuLogo.png in Resources */,
+				33A980071B389D2200DFA925 /* ISUResources.html in Resources */,
+				DED7BD561B60334D00835381 /* Button3_highquality.png in Resources */,
+				33A9800A1B389D2200DFA925 /* reportToISUPolice.html in Resources */,
+				DED7BD541B60334D00835381 /* Button6_highquality.png in Resources */,
+				33A9800B1B389D2200DFA925 /* responsibleEmployees.html in Resources */,
+				DED7BD571B60334D00835381 /* Button4_highquality.png in Resources */,
 				33A97FD81B389A9B00DFA925 /* Main.storyboard in Resources */,
+				33A9800C1B389D2200DFA925 /* safetyTips.html in Resources */,
+				DED7BD531B60334D00835381 /* Button7_highquality.png in Resources */,
+				33A980041B389D2200DFA925 /* confidentialAssistance.html in Resources */,
+				33A980051B389D2200DFA925 /* consent.html in Resources */,
 				33A97FDD1B389A9B00DFA925 /* LaunchScreen.xib in Resources */,
+				33A9800D1B389D2200DFA925 /* THResources.html in Resources */,
+				DED7BD581B60334D00835381 /* Button2_highquality.png in Resources */,
+				33A9800E1B389D2200DFA925 /* whatToDo.html in Resources */,
+				33A980061B389D2200DFA925 /* index.html in Resources */,
+				DED7BD521B60334D00835381 /* Button8_highquality.png in Resources */,
+				DED7BD551B60334D00835381 /* Button5_highquality.png in Resources */,
+				33A980091B389D2200DFA925 /* reportToISU.html in Resources */,
 				33A97FDA1B389A9B00DFA925 /* Images.xcassets in Resources */,
+				DED7BD591B60334D00835381 /* Button1_highquality.png in Resources */,
+				33A980081B389D2200DFA925 /* mystyle.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33A97FD51B389A9B00DFA925 /* ViewController.m in Sources */,
 				33A97FD21B389A9B00DFA925 /* AppDelegate.m in Sources */,
 				33A97FCF1B389A9B00DFA925 /* main.m in Sources */,
+				33A97FF81B389BB100DFA925 /* CustomViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +373,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -348,10 +438,15 @@
 		33A97FED1B389A9B00DFA925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ItsOnBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -359,9 +454,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ItsOnBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -418,6 +518,7 @@
 				33A97FEE1B389A9B00DFA925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A97FEF1B389A9B00DFA925 /* Build configuration list for PBXNativeTarget "ItsOnBlueTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +527,7 @@
 				33A97FF11B389A9B00DFA925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

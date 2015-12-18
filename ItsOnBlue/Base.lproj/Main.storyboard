@@ -1,25 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
-    <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
-    </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
-    </scenes>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MpO-hX-YVY">
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+<capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+</dependencies>
+<scenes>
+<!--It's On Blue-->
+<scene sceneID="tne-QT-ifu">
+<objects>
+<viewController id="BYZ-38-t0r" customClass="CustomViewController" sceneMemberID="viewController">
+<layoutGuides>
+<viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+<viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+</layoutGuides>
+<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7l-ng-nMm">
+<rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</webView>
+</subviews>
+<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+<constraints>
+<constraint firstItem="w7l-ng-nMm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="BB5-qc-eQn"/>
+<constraint firstAttribute="trailingMargin" secondItem="w7l-ng-nMm" secondAttribute="trailing" constant="-20" id="Cw8-QN-pJs"/>
+<constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w7l-ng-nMm" secondAttribute="bottom" id="WJr-Md-d6w"/>
+<constraint firstItem="w7l-ng-nMm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xHJ-i0-ehx"/>
+</constraints>
+</view>
+<navigationItem key="navigationItem" title="It's On Blue" id="B6z-io-uI8">
+<barButtonItem key="leftBarButtonItem" title="Back" id="TdL-nZ-kPs">
+<connections>
+<action selector="goBack" destination="w7l-ng-nMm" id="daL-87-bZ6"/>
+</connections>
+</barButtonItem>
+</navigationItem>
+<connections>
+<outlet property="_MyPage" destination="w7l-ng-nMm" id="Gw1-er-plF"/>
+</connections>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="952" y="303"/>
+</scene>
+<!--Navigation Controller-->
+<scene sceneID="F7i-MW-gAe">
+<objects>
+<navigationController automaticallyAdjustsScrollViewInsets="NO" id="MpO-hX-YVY" sceneMemberID="viewController">
+<toolbarItems/>
+<navigationItem key="navigationItem" id="s1j-Yx-Jdn"/>
+<navigationBar key="navigationBar" contentMode="scaleToFill" id="DBv-z8-oyd">
+<rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+<autoresizingMask key="autoresizingMask"/>
+</navigationBar>
+<nil name="viewControllers"/>
+<connections>
+<segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="71y-51-F7t"/>
+</connections>
+</navigationController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="6mw-IF-1iI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="-75" y="-389"/>
+</scene>
+</scenes>
 </document>
